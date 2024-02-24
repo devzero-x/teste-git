@@ -221,4 +221,3 @@ Para ver as diferenças usar:
 # SIMULANDO UM CONFLITO
 
 O conflito acontece porque 2 repositorios locais diferentes realizaram alteraçoes no mesmo lugar.
-
