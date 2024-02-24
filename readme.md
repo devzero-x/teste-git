@@ -265,6 +265,8 @@ O hard apaga o commit E o código (a alteração) que foi feita junto ao commit.
 
 Obs: NÃO é recomendado apagar commits que já estão disponíveis remotamente.
 
+# ALTERAR UM COMMIT
 
+Quero alterar a mensagem do último commit que foi escrito errado, por exemplo.
 
-
+    git commit --amend -m "texto da mensagem do commit corrigido"
