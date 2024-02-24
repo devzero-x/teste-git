@@ -182,6 +182,10 @@ git add .
 git commit
 git push
 
+# SIMULANDO UM CONFLITO
+
+O conflito acontece uma mesma linha foi alterada em 2 repositorios diferentes
+
 # Também dá pra fazer o ajuste com o merge editor:
 
 clicar no bortão "resolve in merge editor"
@@ -218,6 +222,21 @@ Para ver as diferenças usar:
 
 	git diff
 
-# SIMULANDO UM CONFLITO
+# 04 01 DESFAZENDO UM COMMIT
 
-O conflito acontece porque 2 repositorios locais diferentes realizaram alteraçoes no mesmo lugar.
+No github conseguimos ver os commits feitos.
+
+No git vcscode não conseguimos ver os logs (não tem essa opção)
+Mas podemos ver aqui pelo terminal do vscode mesmo.
+
+    git log
+
+Pra sair do log é só apertar q
+Cada commit possui um ID único
+
+Caso queira excluir um commit é só:
+dar git log e copiar o ID do commit que quer excluir e inserir o comando:
+
+    git revert ID
+
+O revert não deleta o commit, ele desfaz a mudança que foi feita.
