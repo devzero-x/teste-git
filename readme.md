@@ -129,8 +129,6 @@ git push
 
 Agora essa pessoa precisa "baixar" as alterações para o diretório local dela.
 
-------------------------
-
 * git pull
 
 Puxa os commits do remoto para o local
@@ -143,7 +141,9 @@ Com o pull podemos baixar as alterações que outro colaborador fez
 
 __Aula git 02 01__
 
-Abrir o source no vs code (git )
+Como abrir o git de uma forma visual? O vsCode faz isso:
+
+Abrir o source no vs code (git ) -- abrir o simbolo abaixo da lupa no menu esquerdo
 
 O sinal de + adiciona as mudanças no git.
 
