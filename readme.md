@@ -159,6 +159,8 @@ __Aula git 02 01__
 
 Abrir o source no vs code (git ) -- abrir o simbolo abaixo da lupa no menu esquerdo
 
+As alterações ficam em "changes"
+Ao passar o mouse:
 O sinal de + adiciona as mudanças no git. (git add)
 
 Agora as alterações estão em stage.
