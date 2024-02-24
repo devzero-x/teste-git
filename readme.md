@@ -119,14 +119,25 @@ O procedimento é feito manualmente:
 
 ----------------------------
 
+Fazer alterações no projeto clonado na minha máquina,
+
+git add .
+git commit
+git push
+
+### PRONTO! AS ALTERAÇÕES FORAM COMMITADAS E PUSHADAS PARA O DIR REMOTO DE OUTRA PESSOA
+
+Agora essa pessoa precisa "baixar" as alterações para o diretório local dela.
+
+------------------------
+
 * git pull
 
-baixa os commits do repositório remoto para o repositório local
-puxa os commits do remoto para o local
+Puxa os commits do remoto para o local
 
     git pull origin main
 
-com o pull podemos baixar as alterações que outro colaborador fez
+Com o pull podemos baixar as alterações que outro colaborador fez
 
 -----------------------------
 
@@ -191,6 +202,12 @@ Para ver as diferenças usar:
 
 	git diff
 
+Para indicar a co autoria usar:
 
+    git commit -m "Adicionar nova funcionalidade.
+>
+>
+Co-authored-by: NOME <nome@email.com>
+Co-authored-by: OUTRO-NOME <outro@email.com>"
 
 
