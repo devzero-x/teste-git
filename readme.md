@@ -265,8 +265,79 @@ O hard apaga o commit E o código (a alteração) que foi feita junto ao commit.
 
 Obs: NÃO é recomendado apagar commits que já estão disponíveis remotamente.
 
-# ALTERAR UM COMMIT
+# ALTERANDO O ÚLTIMO COMMIT
 
 Quero alterar a mensagem do último commit que foi escrito errado, por exemplo.
 
     git commit --amend -m "texto da mensagem do commit corrigido"
+
+OBSERVAÇÃO:
+Alterações de commit é utilizado sempre com cautela. Evitar sempre alterar commits que já estão disponíveis remotamente.
+
+# README
+
+O leia-me usa formato html e mark down.
+Dicas sobre o que colocar no readme
+
+- Descrição do seu projeto;
+- Funcionalidades;
+- Como os usuários podem utilizá-lo;
+- Onde os usuários podem encontrar ajuda sobre seu projeto;
+- Autores do projeto.
+
+são legais de se ter no seu README, como:
+
+Título e Imagem de capa;
+Badges;
+Índice;
+Descrição do Projeto;
+Status do Projeto;
+Funcionalidades e Demonstração da Aplicação;
+Acesso ao Projeto;
+Tecnologias utilizadas;
+Pessoas Contribuidoras;
+Pessoas Desenvolvedoras do Projeto;
+Licença.
+
+Para colocar um título centralizado:
+
+    <h1 align="center"> Seu título aqui </h1>
+
+o Shields.io, ele fornece na página principal diversos exemplos de Badges (distintivos, insígnias, etc)
+
+Exemplo de índice:
+
+    # Índice 
+
+    * [Título e Imagem de capa](#Título-e-Imagem-de-capa)
+    * [Badges](#badges)
+    * [Índice](#índice)
+    * [Descrição do Projeto](#descrição-do-projeto)
+    * [Status do Projeto](#status-do-Projeto)
+    * [Funcionalidades e Demonstração da Aplicação](#funcionalidades-e-demonstração-da-aplicação)
+    * [Acesso ao Projeto](#acesso-ao-projeto)
+    * [Tecnologias utilizadas](#tecnologias-utilizadas)
+    * [Pessoas Contribuidoras](#pessoas-contribuidoras)
+    * [Pessoas Desenvolvedoras do Projeto](#pessoas-desenvolvedoras)
+    * [Licença](#licença)
+    * [Conclusão](#conclusão)
+
+# IGNORANDO ARQUIVOS NO GITHUB
+
+Ou fazer o git add de cada arquivo que quer adicionar ao commit ( sem o .)
+Ou continuar usando o git add . mas indicar qual arquivo o git deve ignorar:
+Criar um arquivo oculto chamado .gitignore e listar lá todos os tipos de arquivo que devem ser ignorados pelo commit
+
+Exemplos:
+
+    temp/
+    senhas.txt
+    *.css
+
+O *.css ignora todos os arquivos css
+
+
+
+
+
+
