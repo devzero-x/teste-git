@@ -240,5 +240,3 @@ dar git log e copiar o ID do commit que quer excluir e inserir o comando:
     git revert ID
 
 O revert não deleta o commit, ele desfaz a mudança que foi feita.
-
-# inserindo um commit para excluir com "muitas alterações"
