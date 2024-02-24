@@ -240,3 +240,31 @@ dar git log e copiar o ID do commit que quer excluir e inserir o comando:
     git revert ID
 
 O revert não deleta o commit, ele desfaz a mudança que foi feita.
+
+# resetando um commit
+
+Quando queremos APAGAR um commit do histórico de commits.
+
+Exemplo:
+
+Realizar uma mudança no rep local;
+git add . ;
+git commit -m ;
+
+Quero deletar essa mudança. Seguir os seguintes passos: (ainda não dei o push pro rep remoto)
+
+No terminal, rodar o git log;
+Copiar o ID do commit ANTERIOR ao que se quer excluir;
+
+dar o comando:
+
+    git reset --hard id
+
+O reset tem algumas configurações. O --hard é uma delas.
+O hard apaga o commit E o código (a alteração) que foi feita junto ao commit.
+
+Obs: NÃO é recomendado apagar commits que já estão disponíveis remotamente.
+
+
+
+
