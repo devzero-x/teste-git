@@ -155,15 +155,15 @@ para listar as entradas remotas configuradas e suas URLs.
 
 __Aula git 02 01__
 
-Como abrir o git de uma forma visual? O vsCode faz isso:
+# Como abrir o git de uma forma visual? O vsCode faz isso:
 
 Abrir o source no vs code (git ) -- abrir o simbolo abaixo da lupa no menu esquerdo
 
-O sinal de + adiciona as mudanças no git.
+O sinal de + adiciona as mudanças no git. (git add)
 
 Agora as alterações estão em stage.
 
-Colocar a mensagem e dar commit
+Colocar a mensagem e dar commit (git commit)
 
 ----------------
 
