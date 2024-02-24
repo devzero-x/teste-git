@@ -125,6 +125,14 @@ git add .
 git commit
 git push
 
+Obs: Para indicar uma co-autoria usar:
+
+    git commit -m "Adicionar nova funcionalidade.
+    >
+    >
+    Co-authored-by: NOME <nome@email.com>
+    Co-authored-by: OUTRO-NOME <outro@email.com>"
+
 ### PRONTO! AS ALTERAÇÕES FORAM COMMITADAS E PUSHADAS PARA O DIR REMOTO DE OUTRA PESSOA
 
 Agora essa pessoa precisa "baixar" as alterações para o diretório local dela.
@@ -136,6 +144,12 @@ Puxa os commits do remoto para o local
     git pull origin main
 
 Com o pull podemos baixar as alterações que outro colaborador fez
+
+Execute o comando:
+
+    git remote -v 
+
+para listar as entradas remotas configuradas e suas URLs.
 
 -----------------------------
 
@@ -202,12 +216,5 @@ Para ver as diferenças usar:
 
 	git diff
 
-Para indicar a co autoria usar:
-
-    git commit -m "Adicionar nova funcionalidade.
->
->
-Co-authored-by: NOME <nome@email.com>
-Co-authored-by: OUTRO-NOME <outro@email.com>"
 
 
