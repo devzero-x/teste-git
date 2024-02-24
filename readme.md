@@ -336,8 +336,17 @@ Exemplos:
 
 O *.css ignora todos os arquivos css
 
+Existe alguns sites geradores de gitinore: gitignore.io
+Ele pede a linguagem e gera todos os nomes pra colocar no arquivo gitignore.
 
+# COMPARTILHANDO TRECHOS DE CÓDIGO
+ 
+ Sem precisar criar um repositório novo só pra isso.
 
+ ícone de + no canto superior direito > NEW GIST
 
+ Criar descrição, tipo de arquivo e copiar o código que vc quer mostrar
 
-
+Então: CREATE PUBLIC GIST
+Copiar o endereço que foi criado na barra de navegador
+Compartilhar
